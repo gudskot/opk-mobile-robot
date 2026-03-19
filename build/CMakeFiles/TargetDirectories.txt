@@ -1,0 +1,3 @@
+/home/gudskot/Documents/VSC_files/project/build/CMakeFiles/main.dir
+/home/gudskot/Documents/VSC_files/project/build/CMakeFiles/edit_cache.dir
+/home/gudskot/Documents/VSC_files/project/build/CMakeFiles/rebuild_cache.dir
