@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
+  "CMakeFiles/main.dir/src/Canvas.cpp.o"
+  "CMakeFiles/main.dir/src/Canvas.cpp.o.d"
   "CMakeFiles/main.dir/src/Environment.cpp.o"
   "CMakeFiles/main.dir/src/Environment.cpp.o.d"
+  "CMakeFiles/main.dir/src/Lidar.cpp.o"
+  "CMakeFiles/main.dir/src/Lidar.cpp.o.d"
   "main"
   "main.pdb"
 )

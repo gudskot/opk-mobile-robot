@@ -11,9 +11,6 @@ namespace environment {
 
         if(map.type() != CV_8UC1)
             throw std::runtime_error("Map must be grayscale");
-
-        cv::imshow("map", map);
-        cv::waitKey(0);
     }
 
     bool Environment::isOccupied(double x, double y) const

@@ -11,10 +11,9 @@ namespace environment {
     };
 
     class Environment {
-    private:
+    public:
         cv::Mat map;
 
-    public:
         explicit Environment(const Config& config);
 
         bool isOccupied(double x, double y) const;

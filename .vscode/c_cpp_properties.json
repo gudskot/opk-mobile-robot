@@ -4,6 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/inc",
                 "/usr/include/opencv4"
             ],
             "defines": [],

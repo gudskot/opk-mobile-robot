@@ -7,7 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 find_package(OpenCV REQUIRED)
 
 add_executable(main
+    src/Canvas.cpp
     src/Environment.cpp
+    src/Lidar.cpp
     main.cpp
 )
 

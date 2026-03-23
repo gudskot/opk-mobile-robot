@@ -15,6 +15,10 @@ struct Config {
 };
 
 class Lidar {
+private:
+    Config config;
+    std::shared_ptr<environment::Environment> env;
+    
 public:
     Lidar(const Config& config, std::shared_ptr<environment::Environment> env);
 

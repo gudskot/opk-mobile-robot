@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Canvas.o: src/Canvas.cpp.o
+.PHONY : src/Canvas.o
+
+# target to build an object file
+src/Canvas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Canvas.cpp.o
+.PHONY : src/Canvas.cpp.o
+
+src/Canvas.i: src/Canvas.cpp.i
+.PHONY : src/Canvas.i
+
+# target to preprocess a source file
+src/Canvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Canvas.cpp.i
+.PHONY : src/Canvas.cpp.i
+
+src/Canvas.s: src/Canvas.cpp.s
+.PHONY : src/Canvas.s
+
+# target to generate assembly for a file
+src/Canvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Canvas.cpp.s
+.PHONY : src/Canvas.cpp.s
+
 src/Environment.o: src/Environment.cpp.o
 .PHONY : src/Environment.o
 
@@ -177,6 +201,30 @@ src/Environment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Environment.cpp.s
 .PHONY : src/Environment.cpp.s
 
+src/Lidar.o: src/Lidar.cpp.o
+.PHONY : src/Lidar.o
+
+# target to build an object file
+src/Lidar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Lidar.cpp.o
+.PHONY : src/Lidar.cpp.o
+
+src/Lidar.i: src/Lidar.cpp.i
+.PHONY : src/Lidar.i
+
+# target to preprocess a source file
+src/Lidar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Lidar.cpp.i
+.PHONY : src/Lidar.cpp.i
+
+src/Lidar.s: src/Lidar.cpp.s
+.PHONY : src/Lidar.s
+
+# target to generate assembly for a file
+src/Lidar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Lidar.cpp.s
+.PHONY : src/Lidar.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Canvas.o"
+	@echo "... src/Canvas.i"
+	@echo "... src/Canvas.s"
 	@echo "... src/Environment.o"
 	@echo "... src/Environment.i"
 	@echo "... src/Environment.s"
+	@echo "... src/Lidar.o"
+	@echo "... src/Lidar.i"
+	@echo "... src/Lidar.s"
 .PHONY : help
 
 
