@@ -12,6 +12,7 @@ void Canvas::mouseHandler(int event, int x, int y, int flags, void* userdata)
 {
     if (event == cv::EVENT_LBUTTONDOWN)
     {
-        points.push_back({(double)x, (double)y});
+        auto* points = static_cast<std::vector<geometry::Point2d>*>(userdata);
+        points->push_back({(double)x, (double)y});
     }
 }

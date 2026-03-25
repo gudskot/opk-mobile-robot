@@ -2,8 +2,6 @@
 #include <opencv2/opencv.hpp>
 #include "Geometry.hpp"
 
-extern std::vector<geometry::Point2d> points;
-
 class Canvas
 {
 public:

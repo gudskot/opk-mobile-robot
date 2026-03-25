@@ -23,12 +23,12 @@ namespace lidar {
             angle = angle * M_PI / 180.0;
             angle += state.theta;
 
-            for (double r = 0; r < config.max_range; r += step)
+            for (double i = 0; i < config.max_range; i += step)
             {
-                double r_pix = r / 0.1;
+                double r = i / 0.1;
 
-                double x = state.x + r_pix * cos(angle);
-                double y = state.y + r_pix * sin(angle);
+                double x = state.x + r * cos(angle);
+                double y = state.y + r * sin(angle);
 
                 if (env->isOccupied(x, y))
                 {

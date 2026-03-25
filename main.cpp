@@ -26,7 +26,7 @@ int main()
     lidar::Lidar lidar(configLidar, environment);
 
     cv::namedWindow("map");
-    cv::setMouseCallback("map", Canvas::mouseHandler);
+    cv::setMouseCallback("map", Canvas::mouseHandler, &points);
 
     while (true)
     {
